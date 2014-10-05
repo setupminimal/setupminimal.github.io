@@ -1,7 +1,1 @@
-defaults:
-  -
-    scope:
-      path: "" # an empty string means all
-      type: "posts"
-    values:
-      layout: "default"
+hilighter: pygments
