@@ -1,0 +1,6 @@
+defaults:
+  -
+    scope:
+      path: "" # an empty string means all
+    values:
+      layout: "default"

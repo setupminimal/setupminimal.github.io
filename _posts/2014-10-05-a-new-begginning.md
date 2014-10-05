@@ -1,0 +1,9 @@
+---
+title: A New Beginning
+---
+A New Beginning
+===============
+
+Hello! I am Setupminimal, a beginning hacker and neat-thing-creator.
+
+This, if I should be sucsessful in reminding myself, will be a blog detailing the advance of my creations. I hope you find something to enjoy in it.
