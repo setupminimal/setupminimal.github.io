@@ -2,7 +2,7 @@
 <html xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>A New Beginning</title>
+   <title>Setupminimal</title>
    <meta name="author" content="Setupminimal" />
 
    <!-- syntax highlighting CSS -->
@@ -19,13 +19,15 @@
     <a class="extra" href="/">home</a>
   </div>
   
-  <div id="post">
-<h1 id="a-new-beginning">A New Beginning</h1>
-
-<p>Hello! I am Setupminimal, an aspiring hacker and neat-thing-creator.</p>
-
-<p>This, if I should be sucsessful in reminding myself, will be a blog detailing the advance of my creations. I hope you find something to enjoy in it.</p>
-
+  <div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    
+      <li><span>06 Oct 2014</span> &raquo; <a href="/2014/10/06/julia-fractals.html">Julia Fractals</a></li>
+    
+      <li><span>05 Oct 2014</span> &raquo; <a href="/2014/10/05/a-new-begginning.html">A New Beginning</a></li>
+    
+  </ul>
 </div>
 
   
