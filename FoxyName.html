@@ -1,10 +1,10 @@
 <html>
-<body>
+<body style="background-color:#E6E6FA">
 Your Secret Foxy Society Name is:
 </br>
 </br>
 <script language="JavaScript">
-<!--
+// Name Part 1
 var r_text = new Array ();
 r_text[0] = "White";
 r_text[1] = "Ice";
@@ -30,13 +30,9 @@ r_text[20] = "Moon";
 r_text[21] = "Sun";
 r_text[22] = "Star";
 var i = Math.floor(23*Math.random())
+var n1 = r_text[i];
 
-document.write(r_text[i]);
-
-//-->
-</script>
-<script language="JavaScript">
-<!--
+// Name Part 2
 var r_text = new Array ();
 r_text[0] = "pelt";
 r_text[1] = "paw";
@@ -53,15 +49,15 @@ r_text[11] = "eye";
 r_text[12] = "fur";
 r_text[13] = "tooth";
 r_text[14] = "pad";
-var i = Math.floor(15*Math.random())
+r_text[15] = "throat";
+r_text[16] = "liver";
+r_text[17] = "hill";
+r_text[18] = "ear";
+r_text[19] = "skin";
+var i = Math.floor(20*Math.random())
+var n2 = r_text[i];
 
-document.write(r_text[i]);
-
-//-->
-</script>
-&nbsp&nbsp&nbspFrances&nbsp&nbsp&nbsp
-<script language="JavaScript">
-<!--
+// Last Name Part 1
 var r_text = new Array ();
 r_text[0] = "Silent";
 r_text[1] = "Hidden";
@@ -72,14 +68,16 @@ r_text[5] = "Pure";
 r_text[6] = "Honor";
 r_text[7] = "Tireless";
 r_text[8] = "Loyal";
-var i = Math.floor(9*Math.random())
+r_text[9] = "Sneaky";
+r_text[10] = "Pounce";
+r_text[11] = "Wise";
+r_text[12] = "Tough";
+r_text[13] = "Furocious";
+r_text[14] = "Quiet";
+var i = Math.floor(15*Math.random())
+var l1 = r_text[i];
 
-document.write(r_text[i]);
-
-//-->
-</script>
-<script language="JavaScript">
-<!--
+// Last Name Part 2
 var r_text = new Array ();
 r_text[0] = "kin";
 r_text[1] = "kind";
@@ -89,12 +87,17 @@ r_text[4] = "clan";
 r_text[5] = "ovna (or ovitch)";
 r_text[6] = "tribe";
 r_text[7] = "sister (or brother)";
-var i = Math.floor(8*Math.random())
+r_text[8] = "one";
+r_text[9] = "group";
+r_text[10] = "friend";
+r_text[11] = "daughter (or son)";
+var i = Math.floor(12*Math.random())
 
-document.write(r_text[i]);
+var l2 = r_text[i]
+document.write(n1 + n2 + " Francis " + l1 + l2);
 
-//-->
 </script>
+</br>
 </br>
 </br>*Note: Requires JavaScript. Sorry about that.
 </br>
