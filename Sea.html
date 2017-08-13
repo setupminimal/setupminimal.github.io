@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Origin of the sea's unpleasant odor.</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      pronounGroups = [['he', 'him', 'his', 'He', 'Him', 'Him'], ['they', 'them', 'their', 'They', 'Them', 'Their'], ['ze', 'zim', 'zir', 'Ze', 'Zim', 'Zir'], ['ve', 'vim', 'vir', 'Ve', 'Vim', 'Vir']];
+      ids = ['c-'];
+      
+ $(function() {
+for (id = 0; id < ids.length; id++) {
+        num = Math.floor(Math.random() * (pronounGroups.length - 1))
+        pronouns = pronounGroups[num];
+        wrong = pronounGroups[(num + 5117) % pronounGroups.length]
+        
+        for (orig = 0; orig < pronounGroups.length; orig++) {
+          for (i = 0; i < pronouns.length; i++) {
+            console.log("Replacing "+ids[id]+pronounGroups[orig][i]+" with "+pronouns[i]); 
+            $("body").children().each(function() {$(this).html(function (index, old) {return old.replace(new RegExp("!"+ids[id]+pronounGroups[orig][i], 'g'), wrong[i]).replace(new RegExp(ids[id]+pronounGroups[orig][i], 'g'), pronouns[i])});})
+          }
+        }
+}
+      });
+    </script>
+  </head>
+  <body id="body"><div>
+    <h2>Origin of the sea's unpleasant odor.</h2>
+<p>"Charles," I said, "this doesn't look right."</p>
+<p>c-He just grunted, before setting down c-his work and trudging to the edge of the boat.</p>
+<p>"Yup." He replied, "That's a very surprising island for our supposed location."</p>
+<p>"... It's not a sea monster, is it?" I queried fearfully.</p>
+<p>Charles seemed to consider this for a moment, before patting me on the shoulder and stating "Nah. I reckon whatever they did to all the dragons will have taken out the leviathans too. Maybe that's the problem."</p>
+<p>"What?"</p>
+<p>"Well, they say all the dragons just fell from the skies when the mages did their great binding. But what do dead things do at sea?"</p>
+<p>Oh. They floated, of course. Now I felt silly for having asked.</p>
+<p>And that did explain the smell of dead fish that was beginning to spread out across the waves.</p></div>
+  </body>
+</html>
