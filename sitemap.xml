@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://setupminimal.github.io/project/digital-humanities-tools/</loc>
+    <lastmod>2017-09-20T16:25:06-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://setupminimal.github.io/project/foxy/</loc>
     <lastmod>2017-09-12T00:00:00+00:00</lastmod>
   </url>
@@ -25,6 +30,12 @@
   <url>
     <loc>https://setupminimal.github.io/project/paperclip-optimizer/</loc>
     <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://setupminimal.github.io/tags/academics/</loc>
+    <lastmod>2017-09-20T16:25:06-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -70,7 +81,13 @@
   
   <url>
     <loc>https://setupminimal.github.io/project/</loc>
-    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-20T16:25:06-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://setupminimal.github.io/tags/python/</loc>
+    <lastmod>2017-09-20T16:25:06-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -88,13 +105,19 @@
   
   <url>
     <loc>https://setupminimal.github.io/</loc>
-    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-20T16:25:06-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://setupminimal.github.io/tags/</loc>
-    <lastmod>2017-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-20T16:25:06-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://setupminimal.github.io/tags/useful-tool/</loc>
+    <lastmod>2017-09-20T16:25:06-04:00</lastmod>
     <priority>0</priority>
   </url>
   
