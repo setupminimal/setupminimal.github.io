@@ -6,10 +6,20 @@
     <description>Recent content in Project on Setupminimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://setupminimal.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Note</title>
+      <link>https://setupminimal.github.io/project/note/</link>
+      <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://setupminimal.github.io/project/note/</guid>
+      <description>note is a simple little utility that lets you keep notes for a particular project on the command line.
+The commands are all pretty simple - in the form of note that this is a note or note list. You can build and install note using stack.</description>
+    </item>
     
     <item>
       <title>Foxy Society Name Generator</title>
