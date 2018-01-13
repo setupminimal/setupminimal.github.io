@@ -6,10 +6,22 @@
     <description>Recent content in Art on Setupminimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://setupminimal.github.io/tags/art/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dueling Watercolors</title>
+      <link>https://setupminimal.github.io/project/dueling-watercolors/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://setupminimal.github.io/project/dueling-watercolors/</guid>
+      <description>Here is a fun little art project I made this morning!
+I thought to myself &amp;ldquo;Self, what if we made a little program that would try to make &amp;lsquo;watercolor-y&amp;rsquo; images by starting with a random canvas, and smudging the paint around?&amp;rdquo;
+So I coded it up, and it looked cool, but not that cool:
+ Then I thought &amp;ldquo;What if we made it so that it wasn&amp;rsquo;t just poking the canvas randomly, but actually trying to match another image?</description>
+    </item>
     
     <item>
       <title>JuliaClock</title>
