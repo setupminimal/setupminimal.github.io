@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/setupminimal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://setupminimal.github.io
+  * I am setupminimal (https://keybase.io/setupminimal) on keybase.
+  * I have a public key ASDZmEqaOFR6V4KwdYtr6cA-nJ1uSoBhkXkWRSyDthd6aQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d9984a9a38547a5782b0758b6be9c03e9c9d6e4a8061917916452c83b6177a690a",
+      "host": "keybase.io",
+      "kid": "0120d9984a9a38547a5782b0758b6be9c03e9c9d6e4a8061917916452c83b6177a690a",
+      "uid": "b638909ae03e6085dfcc33a8ad316b19",
+      "username": "setupminimal"
+    },
+    "merkle_root": {
+      "ctime": 1554611518,
+      "hash": "0e4c22f265586a86ec357dc84fda1db3717afcb07213d790ec8848617b69dd8ce0877054dfa41c542e73bbb9768be8d5020a7fc3cb0e5f650bbea31f22b800e6",
+      "hash_meta": "5dc3d7dd2bf544b901286663001639f842b9f8246c8f801470eee6c26ccb880e",
+      "seqno": 5111625
+    },
+    "service": {
+      "entropy": "Rgf6tEe7qP8cKWS7tLEWERlT",
+      "hostname": "setupminimal.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1554611562,
+  "expire_in": 504576000,
+  "prev": "8ef39f2a07083093310c68e827684a5de313989be294ad39ca56f0419ba84d40",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2ZhKmjhUeleCsHWLa+nAPpydbkqAYZF5FkUsg7YXemkKp3BheWxvYWTESpcCBsQgjvOfKgcIMJMxDGjoJ2hKXeMTmJvilK05ylbwQZuoTUDEIGzxttGQWJs/KHWw5zsfmLZXtX+7CM2tJLG0KknWTxfzAgHCo3NpZ8RAJdehuoH5hoAnqEchhSn8Zt/6QZtuxtQixfeO54wCbobcOiH3/d3XFyFKrOMykY4zLir+LMwgDuCFEPcUOoApDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOEZV1UnDTLrp4IVWt2xuw9pym72Tae5dJE68OuGREAgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/setupminimal
+
+==================================================================
