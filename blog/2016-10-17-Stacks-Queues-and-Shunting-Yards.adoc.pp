@@ -1,0 +1,42 @@
+#lang pollen
+= Stacks, Queues, and Shunting Yards
+
+This week we talked about Stacks, Queues, and the uses for them. A stack is a simple kind of data container. You can put things into it, and you can take something out of it. The first thing you put in is the last thing to come out. Every time you push something into the stack, all the other items 'move down', leaving the new item on the top. Every time you retrieve something, you get the top item.
+
+A Queue is almost the same, except that the first thing you put in is the first thing to come out. Instead of taking items off of the top, you take items off of the bottom.
+
+So what are these useful for?
+
+=== Reverse Polish Notation
+
+Reverse Polish Notation is an alternate syntax for mathematics that avoids the use of parenthesies by using a stack. Instead of saying `(3 + 4) * 5`, you say `3 4 + 5 *`. Every time you see a number, put it on the stack. Every time you see an operator, take two numbers off the stack, perform the operation, and push the result. Here's how the stack would change over time as we evaluate the expression above:
+
+----
+3 | 3
+4 | 4 3
++ | 7
+5 | 5 7
+* | 35
+----
+
+And `35` is our answer! Cool! This system is used a lot in computing, because it's so easy to implement. It gets used for teh Java Virtual Machine, it gets used for Forth, for Python Bytecode, etc. But how can you change `(3 + 4) * 5` into `3 4 + 5 *`?
+
+=== The Shunting Yard Algorithm
+
+Believe it or not, the answer is to use a stack once again. Here's the algorithm: If you see a number, output it. If you see an open parenthesis, put it on the stack. If you see an operator, put it on the stack. If you see a close parenthesis, pop things off of the stack until you reach an open parenthesis, and output them. Here's how it would evolve over time:
+
+----
+token | stack | output
+ (    |  (    |
+ 3    |  (    |  3
+ +    |  (+   |  3
+ 4    |  (+   |  3 4
+ )    |       |  3 4 +
+ *    |  *    |  3 4 +
+ 5    |  *    |  3 4 + 5
+ end  |       |  3 4 + 5 *
+----
+
+Using this algorithm, you can turn infix notation into postfix notation. Similar algorithms can be used for languages other than arithmetic. In general, if you can figure out how to turn your language into a bunch of values connected by operators, you can walk down the program and turn it into a postfix representation.
+
+That's all! Next week: the CS midterm.

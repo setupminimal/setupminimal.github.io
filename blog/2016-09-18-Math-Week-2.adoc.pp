@@ -1,0 +1,59 @@
+#lang pollen
+= Math Week 2
+
+In an unexpected and thrilling departure from the syllabus and our expectations, this week Math Proofs, our exciting new math course, covered Boolean logic.
+
+=== Statements
+
+In math, especially abstract math, it's fun to categorize things that one would usually take for granted. For example, the previous sentence is an example of a statement. A statement is a thing that is either true or false. In logic, you can combine statements to form compound statements the truth value of which depends on the constituent statements. I.E. `It is raining and I am in France` depends on `It is raining` and `I am in France`.
+
+Here are the ways we talked about to combine statements:
+
+ - And
+ - Or
+ - Not
+ - Implies (->)
+ - The Bi-conditional (<->)
+
+`And` and `or` seem pretty straight forward. `Not` is also simple (It makes `I am in France` into `I am _not_ in France`). But let's use the idea of `and`, `or`, and `not` to demonstrate how truth tables work: (T is for True and F is for False)
+
+----
+P | Q | P and Q | P or Q | not P
+--------------------------------
+T | T |    T    |   T    |  F
+T | F |    F    |   T    |  F
+F | T |    F    |   T    |  T
+F | F |    F    |   F    |  T
+----
+
+The idea here is pretty simple. The table shows all the possible values of `P` and `Q`, which are statements, along with the result of using `and`, `or`, and `not`. If you don't quite get it, go through the table and assure yourself that everything in the `P and Q` column matches your intuition of what `P and Q` should be.
+
+This gives us a good way to demonstrate how implication and the bi-conditional work:
+
+----
+P | Q | P -> Q | P <-> Q
+------------------------
+T | T |   T    |    T
+T | F |   F    |    F
+F | T |   T    |    F
+F | F |   T    |    T
+----
+
+Implication is true, except when `P` is true and `Q` is false. This is because either `P` and `Q` are both true, and so `P implies Q` makes sense, or `P` is false, and so no matter what `Q` is, the problem is with `P`, and not your logic. My professor says this can be a bit difficult to grasp, so you might want to meditate on implication for a moment.
+
+The bi-conditional is even easier. Either both `P` and `Q` are true, or they're both false. Their fates are bound together.
+
+=== Open Sentences
+
+There's only one thing left that we have yet to cover from last week, which is open sentences. An open sentence is like a statement with a variable, with a few rules. You have to say what that variable can be, and if you put the variable in the sentence, it must either be true or false.
+
+Example!
+
+----
+P(f) : I am in f.
+where f is in {France, Belgium, Taiwan, Trouble}.
+----
+
+`P(f)` is an open sentence, because if you substitute any of those things in place of f, you have a statement. That's all we really covered with open sentences, but I'm told they're important, so hold onto that knowledge.
+
+I'll be back again next week, folks, but I'm not sure where the syllabus will take us.
