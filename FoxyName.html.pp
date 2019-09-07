@@ -1,6 +1,9 @@
 #lang pollen
 <html>
-<body style="background-color:#E6E6FA">
+  <head>
+    <title>Secret Foxy Society Name Generator</title>
+    </head>
+<body style="background-color:#f5fff5">
 <h1>
 Your Secret Foxy Society Name is:
 </br>
@@ -103,11 +106,13 @@ document.write(n1 + n2 + " Frances " + l1 + l2);
 
 </br>
 </br>
-</br>*Note: Requires JavaScript. Sorry about that.
+</br>Requires JavaScript. If this bothers you, feel free to look at the source. It's short and quite readable.
 </br>
 </br>By GazebosLittleD (AKA <a href="mailto:setupminimal@gmail.com">Daroc Alden</a>).
 </br>
-</br><a href="https://setupminimal.github.io">Back to Main Page</a>
+</br> I created the Foxy Society Name Generator a while ago for the <a href="http://knitchrochethogwartshousecup.blogspot.com/">HPKCHC</a>. If you're interested in knitting or Harry Potter, consider checking them out.
+</br>
+</br><a href="/index.html">Back to Main Page</a>
 
 </body>
 </html>
