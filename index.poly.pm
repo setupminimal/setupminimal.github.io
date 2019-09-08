@@ -13,11 +13,10 @@ You might be looking for:
   ◊list{
     ◊item[#:only-format "html"]{◊link[#:to "FoxyName.html"]{The Foxy Secret Society Name generator}}
     ◊item[#:only-format "html"]{◊link[#:to "JuliaClock.html"]{JuliaClock}}
-    ◊item{◊link[#:to "digital-humanities-tools"]{Digital Humanities Tools}}
+    ◊item{◊link[#:to "digital-humanities-tools.html"]{Digital Humanities Tools}}
     ◊item[#:only-format "html"]{◊link[#:to "watercolors/index.html"]{Dueling Watercolors}}
     ◊item[#:only-format "html"]{◊link[#:to "law-search/lawSearch.html"]{Law-Search} (powered by ◊link[#:to "https://openstates.org/"]{openstates.org})}
     ◊item[#:only-format "html"]{◊link[#:to "paperclip-optimizer/game.html"]{The Paperclip Optimization Game}}}
-    ◊item[#:not-format "html"]{One of the other things available in the live web version located at ◊link[#:to "https://setupminimal.github.io"]{https://setupminimal.github.io}}
   }
   }
   ◊item{Or a way to contact them:

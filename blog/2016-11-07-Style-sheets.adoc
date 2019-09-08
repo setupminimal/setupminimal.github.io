@@ -1,0 +1,37 @@
+= Style (sheets)
+
+This week it IT, we talked about Cascading Style Sheets. Let's say that you've written a web-page. By default, it looks bland - a plain white background, no alignment of paragraphs, all in the same font. But you know that HTML5 is all about separating semantics from display, so there's no good way to style your web-page using only HTML. What can you do?
+
+Use CSS! Cascading Style Sheets give browsers information on how you would like your page to be displayed. CSS lets you do things like change text size, color, and font, adjust the spacing around various elements. For example:
+
+----
+h1 {color: silver;}
+----
+
+This makes your biggest headings silver, instead of black. Or
+
+----
+p {text-size: 1.2em;}
+----
+
+Which makes the text in your paragraphs larger. In general, CSS is structured like
+
+----
+what-I-am-going-to-effect {attribute-to-effect: what-to-make-it;}
+----
+
+You can also combine multiple styles:
+
+----
+p {line-spacing: 1.4em; color: #003456;}
+----
+
+Which will make the text in your paragraphs more spaced out, and a blue-green color. You can also effect multiple things at once:
+
+----
+h1, h2, h3, h4, h5, h6 {background: #FF0000;}
+----
+
+Which gives all of your sizes of heading red backgrounds. The CSS selectors get pretty fancy. You can select elements by id, by parent, by sibling, by class, and by combinations thereof. The rest of class was dedicated to answering questions, and talking about how to pick colors and styles that won't clash horribly.
+
+There are a lot of great resources on the web, if you want to learn more. I recommend link:http://www.w3schools.com[W3 Schools].
