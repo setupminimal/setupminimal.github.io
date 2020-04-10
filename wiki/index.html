@@ -9777,7 +9777,7 @@ Error message and password prompt
 <div created="20200410020146500" creator="s" modified="20200410020149400" modifier="setupminima" title="$:/status/UserName">
 <pre>setupminimal</pre>
 </div>
-<div created="20200410024250900" creator="setupminimal" list="Welcome" modified="20200410031431400" modifier="setupminimal" title="$:/StoryList">
+<div created="20200410024250900" creator="setupminimal" list="Welcome [[Middle Shovóshial]]" modified="20200410134459900" modifier="setupminimal" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10740,7 +10740,7 @@ Notable places:
 <div created="20200410030918600" creator="setupminimal" modified="20200410030938700" modifier="setupminimal" tags="Place Hex" title="Lareŋur">
 <pre>Mountainous and religious, Lareŋur exports metal and imports food. Famous for sheep and advanced mechanisms.</pre>
 </div>
-<div created="20200410031439800" creator="setupminimal" modified="20200410031936500" modifier="setupminimal" tags="Language Hex" title="Middle Shovóshial">
+<div created="20200410031439800" creator="setupminimal" modified="20200410135912300" modifier="setupminimal" tags="Language Hex" title="Middle Shovóshial">
 <pre>Middle [[Shovóshial]] was spoken around the founding of [[Oshéro Ku]]. It descends from [[Ancient Laren]].
 
 ! Phonology
@@ -10761,7 +10761,107 @@ Syllables are (s,sh,z,zh)CV(n,l,m) for now, but I'm still working on the phonota
 
 ! Syntax
 
-TODO expand.
+Nouns don't normally inflect. Verbs inflect for tense, but otherwise don't.
+
+!! Basic words for use in examples
+
+To demonstrate the syntax of Middle Shovóshial, we will use the following words:
+
+&quot;&quot;&quot;
+fito - n. Person, intelligent being
+kimiaru - n. Animal
+hancépo - n. Rock
+&quot;&quot;&quot;
+
+&quot;&quot;&quot;
+kaŋu - v. To see, in the sense of witness
+yamháru - v. To sit, to rest on
+samiélu - v. To give, in the sense of 'make a present of'
+&quot;&quot;&quot;
+
+!! Pronouns
+
+|          | !Singular | !Paucal | !Plural |
+| !1st      | mi       |        | mikol  |
+| !2nd In.  | ce       |        | cenu   |
+| !2nd Out. | il       |        | ilom   |
+| !3rd In.  | kon      | konan  | kiŋol  |
+| !3rd Out. | joŋ      | josaŋ  | joŋal  |
+
+The in/out pronoun distinction is a relic of Laren. Non-native speakers are not told about the in pronouns. Using them is a way of signaling that you're part of the in group.
+
+!! Basic word order
+
+The default word order in Shovóshial is VSO. In some cases the subject will be fronted to emphasize that they're solely responsible for the action.
+
+&quot;&quot;&quot;
+Example:
+&quot;The person sees the animal.&quot;
+sees person(DEF) animal(DEF)
+kaŋu fito kimiaru
+&quot;&quot;&quot;
+
+A noun that shows up on its own has an implicit definite article. The indefinite article is 'hal', which derives from 'halhi', meaning 'any', and occurs before the noun.
+
+Adjectives are based on nouns, and follow the noun. Prepositions are made from verbs with the particle 'ta', and precede the noun they modify.
+
+&quot;&quot;&quot;
+Example:
+&quot;The person sees an animal sitting on the rock&quot;
+sees person(DEF) that-which sits (on)rock(DEF) INDEF animal
+kaŋu fito ta yamháru hancépo al kimiaru
+&quot;&quot;&quot;
+
+Posession is indicated with 'ko'.
+
+&quot;&quot;&quot;
+Example:
+&quot;The person sits on his rock.&quot;
+&quot;The person sits on their (ingroup) rock.&quot;
+sits person(DEF) rock(DEF) of theirs(IN)
+yamháru fito hancépo ko kon
+&quot;&quot;&quot;
+
+This makes Shovóshial a fairly standard head-inital language.
+
+!! Pluralization
+
+I'm still not fully happy with this pluralization system, so its definitely subject to change.
+
+Plurals are indicated by modifying the vowels present in the word like so:
+
+&quot;&quot;&quot;
+a &lt;-&gt; i
+o &lt;-&gt; e
+&quot;&quot;&quot;
+
+So fito becomes fate, hancépo becomes hincópe, etc.
+
+&quot;&quot;&quot;
+Example:
+&quot;The people sit on their rocks&quot;
+&quot;The people sit on their (ingroup) rocks.&quot;
+sits people(DEF) rock(DEF) of theirs(IN)
+yamháru fate hincópe ko kiŋol
+&quot;&quot;&quot;
+
+!! Tense and Aspect
+
+Tense is indicated with infixes. All the infixes are inserted immediately after the first syllable.
+
+|         | !Perfect | !Imperfect | !Habitual |
+| !Past    | -zi-    | -zhe-     | -sa-     |
+| !Present | -       | -ye-      | -seli-   |
+| !Future  | -tol-   | -col-     | -jeli-   |
+
+&quot;&quot;&quot;
+Example:
+&quot;The people sat on their rocks&quot;
+&quot;The people (habitually) sat on their (ingroup) rocks.&quot;
+sits(PAST/HAB) people(DEF) rock(DEF) of theirs(IN)
+yamsaháru fate hincópe ko kiŋol
+&quot;&quot;&quot;
+
 </pre>
 </div>
 <div created="20200410030355000" creator="setupminimal" modified="20200410030804600" modifier="setupminimal" tags="Place Hex" title="Oshéro Ku">
