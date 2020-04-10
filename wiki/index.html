@@ -429,6 +429,8 @@ Error message and password prompt
 
 <li>Hex</li>
 
+<li>HexRunes</li>
+
 <li>Ivön</li>
 
 <li>Kemmoam</li>
@@ -9844,7 +9846,7 @@ Error message and password prompt
 <div created="20200410020146500" creator="s" modified="20200410020149400" modifier="setupminima" title="$:/status/UserName">
 <pre>setupminimal</pre>
 </div>
-<div created="20200410140831500" creator="setupminimal" list="Welcome Hex" modified="20200410141142800" modifier="setupminimal" title="$:/StoryList">
+<div created="20200410140831500" creator="setupminimal" list="Welcome Hex HexRunes" modified="20200410141216800" modifier="setupminimal" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10794,6 +10796,114 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 Notable places:
 
 &lt;&lt;list-links &quot;[tag[Place]]&quot;&gt;&gt;</pre>
+</div>
+<div created="20200410141223200" creator="setupminimal" modified="20200410152454700" modifier="setupminimal" tags="Hex" title="HexRunes">
+<pre>I wanted to create a magic system for [[Hex]] that was simple and limited (so that it didn't make the world too advanced; Hex's overall flavor is supposed to be ~600ADish), but also capable of being played with/experimented with.
+
+HexRunes are based on a deck of 120 hexagonal tiles. A 'deck' is a set of these 120 tiles made by the same person within one lunar cycle out of the same raw materials and of the same size. If any of these conditions are not met, or if any of the tiles in the deck are destroyed, the deck loses its power.
+
+Only tiles from the same deck influence each other at all. The only exception is if a crafts-person manages to make 6 decks within one lunar cycle, the decks form a 'great deck', and all the tiles can be used together. This is quite difficult to do, because it requires you to make more than one tile an hour (One every 37 minutes if you want to sleep 8 hours a day).
+
+The tiles are regular hexagons with one rune written just below each side. There are 6 runes:
+
+TODO insert image
+
+When tiles from the same deck are placed against each other such that any two adjacent sides have the same runes, they form a spell. Now define a great cycle of the spell to be a path that moves between connected tiles, and visits every tile exactly once. Every unique great cycle of the spell causes a spell effect. There are 56218314360374581358695968652228355300723784207050156021624705589141795080249052428747203485357870770279896262471867230617442005632246796006972935062652029935367319072399052556442336528920420940314 possible great cycles, but obviously not all of them can be present in a spell simultaneously. The average useful great cycle is 11 tiles long. There are only 3628800 great cycles of this length.
+
+The effect that a great cycle causes is a function of the runes along that cycle. The vast majority of great cycles either do nothing, explode, or catch fire. Below are some more useful effects that are theoretically possible. These effects can be combined, and can be made stronger or weaker as described in the Circumstances section.
+
+* Eternal heat/light/cold/darkness
+* Encourage/discourage plant growth
+* Promote/demote health
+* Encourage humidity/drought
+* A forcefield resisting the passage of:
+** Air
+** Light
+** Water
+** Heat
+** Metal
+** Living things
+** Dead things
+** Spell effects from other decks
+
+! Circumstances
+
+Spell effects from a spell have a maximum range determined by several factors. Spell effects are always centered on the geometric center of the spell.
+
+Positive correlates:
+
+* Number of tiles in use
+* Number of great cycles present in the spell
+* The size of the tiles
+
+Negative correlates:
+
+* Amount of running water within the maximum range
+* Number of hex-corner singularities within the range
+* The amount of cold iron within the range
+
+The strength of spells is also influenced by several static and dynamic factors. Every great cycle is either day-type or night-type. The corresponding type is more powerful at the corresponding time. There's a period of about 12 minutes around sunup and sundown when they're roughly equally powerful. Spell effect power is also effected by:
+
+Positive correlates:
+
+* Number of willing living beings knowingly effected
+* Density of tile material
+
+Negative correlates:
+
+* Number of unwilling living beings potentially effected
+* Amount of energy that must be expended to cause the effect
+
+Spell range and power can also be dynamically affected by great cycles with meta-effects. A great cycle with a meta-effect influences either the range or power of every great cycle that shares at least two consecutive tiles in common with it. Here is a list of some possible meta-effect conditions:
+
+* Phase of the moon
+* Number of living beings in a radius
+* Amount of water in a radius
+* Average temperature in a radius
+* Force currently being exerted by the influenced spell effects
+* The value of any of these things 12 hours ago
+
+Here are some possible meta-effects:
+
+* Disable a spell effect
+* Decrease a spell's range
+* Increase a spell's range
+* Decrease a spell's effect
+* Increase a spell's effect
+* Cap the maximum force exerted by an effect
+* Disable a spell effect unless the force exerted by it would be greater than a floor
+* Change parameters of the spell (like the hue of light)
+
+! Explosions
+
+Spells always use the minimum possible force to cause their effects. When a tile is destroyed or a spell is otherwise broken, the total energy currently being used by the spell is released as an explosion at the geometric center of the deck. If there are multiple geometric centers (a weird consequence of [[Hex]]'s unusual geometry), the explosion is evenly distributed between them. If the force being exerted by a spell is higher than the material the deck is made of can naturally withstand, the tiles in the spell will get very hot, which will potentially cause them to melt and/or catch fire, which will cause them to explode.
+
+There are also several ways to cause explosions without destroying the deck. Take a spell that both generates heat and resists the passage of heat. Enough said.
+
+On the other hand, explosions count as spell effects, so their maximum radius is limited by running water and cold iron.
+
+! Conclusion
+
+If I've though through everything, this should result in a system where it is:
+
+* Easy to make things explode
+* Hard to cause specific effects on purpose without side effects
+* Hard to automate and/or use to make machines
+* Relatively easy to defend against magic (lots of cold iron)
+* Regular and repeatable, but still too complex to be readily understood without advanced math that is not currently available on [[Hex]].
+* Still flexible enough to permit a bunch of cool tricks
+
+! Cool Tricks
+
+If you want to figure out how HexRunes can be used on your own, without spoilers, you should stop reading here.
+
+The fact that a deck loses its powers if any part of it is destroyed gives you an expensive, one-time way of signalling across arbitrary distances. Great for spies.
+
+The fact that explosions happen at the geometric center of the ''deck'' means that if you can flank a fortification with sufficient precision, you can cause targeted explosions there.
+
+The fact that tiles have to be placed edge-to-edge means that you can make them non-euclidean. For example, turning them into a kind of chainmail-like twisted knot works just fine. This is the only way to get some more powerful or esoteric spell effects to work together.
+
+[[Hex]] itself is actually a great deck being used by the creator god to sustain reality.</pre>
 </div>
 <div created="20200410030952200" creator="setupminimal" modified="20200410031011000" modifier="setupminimal" tags="Place Hex" title="Ivön">
 <pre>A fractured nation of many warring kingdoms. Specializes in innovative Runic arrays and fishing. Known for cheese, wine, and occasionally going up in flames.</pre>
