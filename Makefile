@@ -1,5 +1,7 @@
 
 all:
+	echo "Note: We need asciidoctor and racket."
+	echo "And the racket packages pollen and list-util."
 	raco pollen reset
 	cp ~/Important/Stories/finishedish/*.md stories
 	cd stories; rm *html* || true

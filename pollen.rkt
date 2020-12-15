@@ -1,6 +1,7 @@
 #lang racket/base
 
-(require racket/date txexpr racket/string pollen/template/html list-utils)
+(require racket/date txexpr
+         racket/string pollen/template/html list-utils)
 (provide (all-defined-out))
 
 (define (get-date)
