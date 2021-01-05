@@ -1,0 +1,35 @@
+= Math: Quantifiers
+
+Remember how we were talking about statements and open sentences? Open sentences are not true or false, but when you substitute a variable into them, they become statements, which are always true or false.
+
+Quantifiers turn an open sentence into a statement.
+
+=== The Universal Quantifier
+
+In words, the universal quantifier takes the form of "For all" or "For every", and it works like this. Suppose we have an open sentence, `P(x)`, like, for example `x is a day of the week, where x is in {Tuesday, Turtles, President Obama, Jupiter, Saturday, DeMorgan's Law}.` This is a perfectly reasonable open sentence. It's not true or false, but rather it becomes a statement when you consider each possible value of x separately. What the universal quantifier does is turn it into this statement: `For every x in the domain footnote:[The domain refers to the set of things that `x` could be. Remember that.], x is a day of the week`.
+
+This is a statement, one that we can say definitely is false. Why? `Turtles` is not a day of the week. Here are some other statements that contain the universal quantifier:
+
+`For every real number x, x^2 > -1` (This one is true)
+
+`For all American presidents, the president has been a giant lamprey` (This one is false)
+
+What other quantifiers might exist, I hear you cry?
+
+=== The Existential Quantifier
+
+The existential quantifier says "There exists" or "There is a ___ such that". Using the same example `P(x)` as above, we could make a statement `There exists an x in {Tuesday, Turtles, President Obama, Jupiter, Saturday, DeMorgan's Law} such that x is a day of the week.` This is true! There are in fact two such `x`s.
+
+That is quantifiers in a nutshell. They form statements just like every other, so you can do things like `and` them, `or` them, or nest them inside each other, as in this example:
+
+`For every purpose, there exists a time for that purpose.` This is a universal quantifier wrapped around an existential quantifier wrapped around the statement `There is a time x for a purpose y.`
+
+=== Negation
+
+The last thing we talked about this week was how to correctly negate quantifiers. If I take a statement like `It is raining`, it is pretty clear that the negation is `It is not raining`. If I have a statement like `For all days in September, it is raining`, the opposite is `There exists a day in September when it is not raining.`
+
+When you negate the universal quantifier, it becomes an existential quantifier, and you negate the statement wrapped up inside. The domain never changes. Similarly, when you negate the existential quantifier, it becomes a universal quantifier, and you negate the statement inside, as shown here:
+
+`There is a dog such that the dog is purple` becomes `For all dogs, the dog is not purple`.
+
+That's all! It was a pretty simple week. Next week, I expect us to continue talking about logic and statements. See you then!
