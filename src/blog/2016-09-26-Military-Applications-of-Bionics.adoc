@@ -1,0 +1,41 @@
+= Military Applications of Bionics
+
+This week we talked about the development of bio-mimetic and bio-inspired weaponry, armor, tactics, and camouflage. Because this week was pretty much a survey (We are going to pick a topic to present on next week), I'm going to do a rapid-fire summary of all the different technologies we touched on.
+
+=== Weapons
+
+Chemical weapons: poisons and irritants. They can be delivered as sprays (Skunks, Spitting Cobras), or on the ends of barbs (Caterpillars, Nettles), or through contact (Poison Dart Frogs, Caterpillars). They can vary from disgusting to deadly.
+
+Projectiles: things that cause damage through projectile-launching are actually fairly rare in nature. Mostly, they use pneumatic cannons to drive seeds a long way (Mushrooms, Moss).
+
+Spines: sticky, potentially infectious, uncomfortable. Hollow quills (Porcupines), quills filled with liquids (Nettles), prehensile tentacles with barbs (Sea Anemones), hooks (Burrs), or spiky leaves (Oak).
+
+Mind Control: infectious parasites that modify behavior (Those ones that prey on Ants, Those ones that live in Sheep, Those ones that live in cats, and may be responsible for crazy cat ladies, but maybe not, the evidence is inconclusive, and they're pretty rare anyway, although there are background levels pretty much everywhere a cat has been located in the past).
+
+=== Armor
+
+Plates: Armadillos, dinosaurs
+
+Tough hides: full of thick proteins, sometimes tougher than Kevlar.
+
+Exoskeletons: (Shrimp, Lobster, Beetles)
+
+=== Camo
+
+Passive Camo: look like your environment (Moths, Stick Bugs, certain Spiders)
+
+Active Camo: change color, shape, and texture to hide. (Cuttlefish, Octopodes footnote:[Octopus comes from Greek, and so the correct way to pluralize it is "Octopodes" (pronounced "Ok-top-o-dees" or "Ok-to-po-ds"), not "Octopi", which is bad fake Latin. Octopuses is also acceptable], and Chameleons]
+
+Transparent Camo: They can't see you if they can see through you! (Jellyfish, certain insects)
+
+Distraction: Make them look somewhere else. (Octopodes (ink clouds), Angler-fish)
+
+=== Tactics
+
+Simple things: Don't get hit. Be somewhere else. Be faster. Hide. Pretend to be poisonous. Look bigger. Regrow limbs.
+
+Swarms: Signal to your friends (Bees), hide within a group (Zebras), move faster by flying together (Geese), overwhelm a superior opponent through numbers (Sea Lions). This is what I'm presenting on. I'm going to talk about how we can use swarms of smart-phones (because most people carry them on their person) to map areas, control crowd flow, perform surveillance, and create non-lethal weapons.
+
+In lab this week, we experimented with using sound-based non-lethal weaponry. It was pretty cool, but not very effective. I blame human error and inexperience.
+
+Next week, I'll be able to report back to you on the terrifying weaponry of my classmates.
