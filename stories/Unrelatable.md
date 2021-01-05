@@ -1,0 +1,15 @@
+# Hunted
+
+You know those times when you've been turned into a deer, and you're fleeing from a band of wild and dangerous creatures in the shape of men that are going to hunt you and kill you and eat you raw, and it's all you can do to stop from panicking as you bolt through the woods at night, the branches of bushes and small trees slapping and tearing at your hide, dotting your fresh coat with blood? Blood which mixes with the sweat you've built up - it's almost a froth - spreading the stench behind you, even as you desperately flee? And how you're pretty sure that the things chasing you can smell blood. Heck. Maybe they can even smell fear.
+
+They certainly weren't dissuaded when you tried to end your scent in a small stream. Gods, how long ago was that? You've been running for hours, but the sun still isn't up. At least the moon is still casting it's sickle light through the tops of the trees, painting your path with a bright silver brush. But has it even moved? The shadows certainly seem as though they are still just as high, just as sharp as they were when you started this run.
+
+Your heart briefly jumps into your throat as you doge through yet another cluster of vines and berries, pawing frantically to clear your path. What if the night never ends? You know you'll be safe when the sun comes up - the creatures chasing you are creatures of darkness. Creatures of nightmare and sin. But what if the sun never rises? What if you've stumbled into their realm - what if you can never escape, no matter if you manage to out-last them?
+
+No. No, you can't afford to think about this. You think you can hear them gaining. Hear their cries of merriment and the bays of their hounds. Hear the call of their hunting-horns, horns that send a shiver of primal fear down your spine every time they ring out through the shadowed trees.
+
+With a wild gait, you burst out of the treeline. Looking left and right, you pause. Here, on the bald slope of the mountain, there will be no hiding. And to run back into the forest - back towards them - is pure foolishness. With a last burst of desperate determination, you sprint around the shoulder of the peak. If you can just make the pass, maybe you can hold out until morning.
+
+With dismay, you hear the loud tromping of horses on stone ring out as your pursuers abandon the trees for the stark openness of the mountain. Turning back, hoping to see how much of a lead you have, your hoof catches in a crevice in the rock. You are brought to a sudden and painful halt, accompanied by the sick cracking of your foreleg.
+
+In just moments, they are on you, great specters of death. The last thing you hear is a strain of wild, un-earthly laughter, before a blade slices down, and you hear no more.

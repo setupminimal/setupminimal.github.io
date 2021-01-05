@@ -1,7 +1,8 @@
 #lang racket/base
 
 (require racket/date txexpr
-         racket/string pollen/template/html list-utils)
+         racket/string pollen/template/html list-utils
+         pollen/setup)
 (provide (all-defined-out))
 
 (define (get-date)
@@ -59,11 +60,10 @@
                            #:not-suffix [not-suffix #f]
                            #:container [container 'div]
                            #:order [order string>?])
-  (if (directory-exists? dir)
-      (let* [(listing (sort (directory-list dir) order #:key path->string))
-            (contents (filter (lambda [x] (and (or (not not-suffix) (not (string-suffix? x not-suffix))) (string-suffix? x suffix))) (map path->string listing)))]
-            (list* container (map display contents)))
-    "Could not find directory to render - there was an error generating the site."))
+  (let* [(rdir (if (directory-exists? dir) dir (build-path (current-project-root) "verbatim" dir)))
+         (listing (sort (directory-list rdir) order #:key path->string))
+         (contents (filter (lambda [x] (and (or (not not-suffix) (not (string-suffix? x not-suffix))) (string-suffix? x suffix))) (map path->string listing)))]
+    (list* container (map display contents))))
 
 (define (fix f x)
   (define (itr f x)
@@ -75,3 +75,9 @@
 ;; Note the (br) stuff is just a quick-fix
 (define (to-html doc)
   (->html (fix (lambda [x] (replace-sublist x '("\n" "\n") '((br) (br)))) doc)))
+
+(module setup racket/base
+  (require pollen/setup racket/string)
+  (provide (all-defined-out))
+  (define (omitted-path? path)
+    (or (default-omitted-path? path) (string-contains? (path->string path) "verbatim"))))
