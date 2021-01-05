@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/typesetter.css">
+    <title> | Setupminimal</title>
+  </head>
+  <body>
+    <nav>
+      You're reading 2016-10-02-Math-Week-4-Proof-Strategies.html. This site was last regenerated on Tuesday, January 5th, 2021.
+      <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/blog.html">Blog</a></li>
+      <li><a href="/resume.html">Resumé</a></li>
+      <li><a href="/fiction.html">Fiction</a></li>
+      </ul>
+    </nav>
+    <root><p>= Math Week 4: Proof Strategies</p><p>This week in math we talked about some basic proof strategies, all based around proving implications.</p><p>=== Direct Proof</p><p>This one is the most straight forward. If you are trying to prove that <code>P -&gt; Q</code>, you can use a direct proof by assuming <code>P</code> and deriving <code>Q</code>. Here&rsquo;s an example:</p><hr/><p>We will use a direct proof to prove that if x is odd, x + 3 is even. Assume x is odd. This means that x = 2*k + 1, for some integer k. Therefore, x + 3 = 2*k + 1 + 3 = 2*k + 4 = 2 * (k + 2). Since k + 2 is an integer, we know that 2 * (k + 2) must be an even integer. Therefore, if x is odd, x + 3 is even. Q.E.D. &mdash;-</p><p>Hooray! That wasn&rsquo;t too complicated.</p><p>=== Trivial Proof</p><p>Another method is to simply ignore <code>P</code> and prove that <code>Q</code> is always true, so <code>P -&gt; Q</code> is true whether or not <code>P</code> is true. This is a trivial proof. Here&rsquo;s an example:</p><hr/><p>We will use a trivial proof to prove that if it is Sunday, x^2 + 4x + 5 != 0. Since x^2 + 4x + 5 = x^2 + 4x + 4 + 1 = (x + 2)^2 + 1, and (x + 2)^2 is greater than or equal to zero, (x + 2)^2 + 1 &gt;= 0 + 1 &gt; 0. So x^2 + 4x + 5 != 0. Q.E.D. &mdash;-</p><p>=== Vacuous Proof</p><p>Instead of ignoring <code>P</code>, you can also choose to ignore <code>Q</code>. Remember that <code>P -&gt; Q</code> is true when <code>P</code> is false - regardless of <code>Q</code>. So if we can prove that <code>P</code> is false, we have proven <code>P -&gt; Q</code>. Example time:</p><hr/><p>We will use a vacuous proof to prove that when |sin(x)| &lt; -(x^2), I am wearing blue socks. Since |sin(x)| &gt;= 0, and -(x^2) &lt;= 0, |sin(x)| can never be less than -(x^2), so the statement is proven. Q.E.D. &mdash;-</p><p>=== Contrapositive Proof</p><p>Finally, if we want to prove that <code>P -&gt; Q</code>, we can prove that <code>not Q -&gt; not P</code> instead. Those two statements are logically equivalent, because <code>(not (P -&gt; Q)) = (P and not Q) = (not Q and not (not P)) = (not Q and P) = (not (not Q -&gt; not P))</code>. So this is like a direct proof - assume <code>not Q</code>, and prove <code>not P</code>. Here&rsquo;s an example:</p><hr/><p>We will use a Contrapositive proof to prove that if x &gt; 3, then x^2 &ndash; 4x + 4 != 0. Assume that x^2 &ndash; 4x + 4 = 0: x^2 &ndash; 4x + 4 = (x &ndash; 2)^2 = 0. Take the square root of both sides, showing that x &ndash; 2 = 0, so x = 2. 2 is not greater than 3, so if x^2 &ndash; 4x + 4 = 0, x is not greater than 3. Q.E.D. &mdash;-</p><p>That&rsquo;s all for this week - I expect more proof techniques next week, but we&rsquo;ll see what happens.</p></root>
+  </body>
+</html>

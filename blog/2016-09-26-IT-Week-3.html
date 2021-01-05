@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/typesetter.css">
+    <title>This is a Heading | Setupminimal</title>
+  </head>
+  <body>
+    <nav>
+      You're reading 2016-09-26-IT-Week-3.html. This site was last regenerated on Tuesday, January 5th, 2021.
+      <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/blog.html">Blog</a></li>
+      <li><a href="/resume.html">Resumé</a></li>
+      <li><a href="/fiction.html">Fiction</a></li>
+      </ul>
+    </nav>
+    <root><p>= IT Week 3</p><p>So this week we talked about HTML. The HyperText Markup Language is the language that web pages are written in. Every time your browser shows you a web page, it is really fetching an HTML document, and then using the layout information inside to present it to you on the screen. Here&rsquo;s what a simple HTML document looks like:</p><hr/><p></p><html lang="en"><head><title>A simple Webpage</title> <meta charset="utf-8"/></head> <body><h1>This is a Heading</h1> <p>Followed by a paragraph of information.</p></body></html><hr/><p>Now the first thing you might notice about this is all the angle brackets. Something enclosed in <code>&lt;</code> and <code>&gt;</code> is a tag. Tags give the basic structure of an HTML document. All tags must have a closing tag, denoted with a <code>/</code>, although sometimes a tag is its own closing tag. <code>&lt;meta /&gt;</code> is one example of a self closing tag. <code>&lt;p&gt; . . . &lt;/p&gt;</code> is an example of an opening and a closing tag.</p><p>Each tag means something for the structure that comes inside it. <code>&lt;html&gt;</code> indicates that everything inside the tag is an HTML document. <code>&lt;head&gt;</code> indicates header information that is not displayed, such as the title, the language, the character encoding, any scripts on the page, etc. <code>&lt;body&gt;</code> indicates what actually gets displayed. <code>&lt;h1&gt;</code> makes its contents into a heading. <code>&lt;p&gt;</code> makes its contents into a paragraph.</p><p>There are a few other important bits:</p><ul><li>HTML ignores white space. As long as there is at least one space between words, they will appear with exactly one space between them.</li><li>Sometimes tags have additional information, like the <code>charset='utf-8'</code> in the <code>&lt;meta /&gt;</code> tag above.</li><li>Comments take the form of <code>&lt;!-- This is a comment &amp;dash;&amp;dash;&gt;</code>.</li><li>Tags always have to be <em>nested</em>. <code>&lt;p&gt;&lt;h1&gt;&lt;/p&gt;&lt;/h1&gt;</code> makes no sense at all.</li></ul><p>You can try this out yourself really easily! Open up a text editor (Notepad, Notepad++ on Windows; TextEdit on macOS; and if you&rsquo;re on Linux, you probably have at least three, and one is your favorite, and if I recommend another one you will tear me apart with wolves), write a document like the one above (you could even just copy-paste it), save the file as <code>example.html</code>, and open that file in your web browser. All major web browsers have an open-file option, usually in the File menu.</p><p>Then, you can edit the document, reload the page, and see your changes.</p><p>That&rsquo;s all for now, but next week we will go more in-depth on HTML. A great HTML and other standards reference is link:http://w3.org[W3], the World Wide Web Consortium. They can give you more information on the various tags, as well as some helpful tutorials.</p></root>
+  </body>
+</html>
