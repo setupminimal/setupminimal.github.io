@@ -1,11 +1,11 @@
 #lang pollen
-= Computer Science: Actually Doing Things
+# Computer Science: Actually Doing Things
 
 So this is the final week of getting everyone up to speed on link:https://python.org[Python], that wonderful programming language. While I might do basic recaps of python's functionality if it comes up, after this week my CS course is going to focus more on algorithms - less talk about the language, more talk about what we're saying in the language.
 
 The big thing this week was
 
-=== Opening Files
+### Opening Files
 
 Yay! So last week, we talked about the basics - what things existed, how you could manipulate them, and how to control what your program does. This week, we reviewed interacting with the outside world. A program doesn't do very much if it just sits in the dark! It has to talk to the user, to the filesystem, sometimes even to the internet. Here are a few ways to do that:
 

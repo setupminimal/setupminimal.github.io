@@ -1,9 +1,9 @@
 #lang pollen
-= Divisors and Things
+# Divisors and Things
 
 This week we talked about how to prove things about numbers that evenly divide other numbers.
 
-=== X divides Y
+### X divides Y
 
 `3 | 12` says "3 evenly divides 12". This is equivalent to saying `12 = 3k` where k is an integer. This turns out to be useful notation, because it lets you say things like `2 | n -> n is even` or `2 ⍀ n -> n is odd`. footnote:[My apologies if the ⍀ symbol shows up as a box with numbers inside. Just picture an | with a \ through it, and you'll get the idea.] This clearly suggests that there are other classes of numbers that we don't have convinient names for, like `3 | n` and `3 ⍀ n`. `3 ⍀ n` isn't really equivalent to odd, however, because it is bigger than `3 | n`. Perhaps a better way to look at this could be seen by introducing some new notation.
 

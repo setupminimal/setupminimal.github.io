@@ -1,9 +1,9 @@
 #lang pollen
-= Math Week 2
+# Math Week 2
 
 In an unexpected and thrilling departure from the syllabus and our expectations, this week Math Proofs, our exciting new math course, covered Boolean logic.
 
-=== Statements
+### Statements
 
 In math, especially abstract math, it's fun to categorize things that one would usually take for granted. For example, the previous sentence is an example of a statement. A statement is a thing that is either true or false. In logic, you can combine statements to form compound statements the truth value of which depends on the constituent statements. I.E. `It is raining and I am in France` depends on `It is raining` and `I am in France`.
 
@@ -43,7 +43,7 @@ Implication is true, except when `P` is true and `Q` is false. This is because e
 
 The bi-conditional is even easier. Either both `P` and `Q` are true, or they're both false. Their fates are bound together.
 
-=== Open Sentences
+### Open Sentences
 
 There's only one thing left that we have yet to cover from last week, which is open sentences. An open sentence is like a statement with a variable, with a few rules. You have to say what that variable can be, and if you put the variable in the sentence, it must either be true or false.
 

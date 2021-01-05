@@ -1,9 +1,9 @@
 #lang pollen
-= References and Values and Bears, Oh My!
+# References and Values and Bears, Oh My!
 
 As you may recall, I have a work-study program at the link:https://iol.unh.edu[UNH-IOL]. In the course of my duties, I was recently asked to write a series of tests for the test tool that my consortium uses. Things were going swimmingly, until I ran into an issue that really drove home something that should be learned quite early on when one is learning programming:
 
-=== Variables are References
+### Variables are References
 
 If you took High-school Algebra, you are familliar with the concept of a variable. Something like `_x_` in the expression `_x = 5_`. In most programming languages footnote:[There are a lot of different languages that do things differently. Each language is a different way of writing down an algorithm - check out my introductory post on link:https://setupminimal.github.io/blog/2016/07/20/Introduction-to-Programming.html[Programming]] this doesn't do what you're familiar with from mathematical notation.
 
@@ -11,7 +11,7 @@ If you took High-school Algebra, you are familliar with the concept of a variabl
 
 If you aren't familiar with what the particular language you are using does, then it is easy to become confused about what exactly `_x_` _means_. If you use `_x_` as something that can't change, or as directly holding the value, or as a pointer, and that's not what your language means, your program may not do what you think it does. This happened to me just recently - despite my years of writing in this particular programming language.
 
-=== What I did
+### What I did
 
 I was working on some code that looked like this footnote:[In Pseudocode, because teaching Java Syntax is not what this post is about. Go try out link:https://khanacademy.com[Khan Academy]] footnote:[Also, this code has been edited down for simplicity - it wasn't really like this.]:
 
@@ -31,7 +31,7 @@ The problem with this was that `goDoSomethingWhileIKeepGoing` kept doing things 
 
 The language I was using (Java) stores pointers instead of actual items when you make a new variable (mostly; it's kind of ugly). When I changed the favorite color of `_x_`, I changed it for the one `_Foo_` object that both functions were using. Because of this, the color suddenly changed in `goDoSomethingWhileIKeepGoing`, even though the change was made after it was initially called.
 
-=== So What?
+### So What?
 
 Yes, this is a sad story, but what does it actually mean for you?
 

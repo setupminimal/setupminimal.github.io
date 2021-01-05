@@ -1,11 +1,11 @@
 #lang pollen
-= Information Technology 1: What is a network?
+# Information Technology 1: What is a network?
 
 Information Technology! It's a thing! It's a class! I'm taking it!
 
 This week we covered something really basic, but fundamental to developing an understanding of the internet.
 
-=== What is a network?
+### What is a network?
 
 A network is a group of things that communicate somehow. That's a very vague definition, of course, but it is the most general one. When we talk about networks, we usually mean networks of computers. Some computers communicate somehow. The "somehow" is the interesting part this week. How do computers communicate? They use protocols.
 

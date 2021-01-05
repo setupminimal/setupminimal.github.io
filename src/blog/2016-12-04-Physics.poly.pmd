@@ -1,11 +1,11 @@
 #lang pollen
-= Physics
+# Physics
 
 This week in computer science, we talked about physics.
 
 Our universe is governed by certain physical laws. Luckily for us, those laws are predictable, mathematical, and general. That means that we can create simulations that mimic physics with relative ease. So how _does_ one go about making a physical simulation?
 
-=== Level of Detail
+### Level of Detail
 
 Some simulations need to be more precise than others. For a videogame, you only need to be within a few pixels of real motion. For a subatomic particle simulator, you need to be precise out to the number of decimal places that your real-life equipment uses. This is important, because everything that I am about to describe is an approximation.
 

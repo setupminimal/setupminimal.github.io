@@ -1,9 +1,9 @@
 #lang pollen
-= Computer Science Week 4: Bins
+# Computer Science Week 4: Bins
 
 This week was . . . kind of slow. We talked about sorting values into bins.
 
-=== Bins
+### Bins
 
 Let's imagine that you have 1,000 numbers from 0 to 10, and I want you to sort them into 10 equally sized bins. How would you do this?
 
@@ -39,7 +39,7 @@ for number in numbers:
 
 Much shorter, and we can change the number of bins by messing around with the `range` call.
 
-=== Classes
+### Classes
 
 After talking about bins, and doing an exercise involving histograms, we moved on to Classes. In python, remember how there were different types of things, like `list`s, `int`s, `strings`s, `function`s, et cetera? A class is a type of thing. Python let's us define our own types, and make them do things. Here's an example:
 

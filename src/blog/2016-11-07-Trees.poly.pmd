@@ -1,5 +1,5 @@
 #lang pollen
-= Trees!
+# Trees!
 
 I really like trees. Both the growing kind, and the computer science kind. Remember Linked Lists? A bunch of cells strung together to form a chain, where each cell has a pointer to the next cell? Trees are almost the same idea.
 

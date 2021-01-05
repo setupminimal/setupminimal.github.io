@@ -1,5 +1,5 @@
 #lang pollen
-= Floating Point Numbers
+# Floating Point Numbers
 
 Note: This was supposed to go out on Monday - my apologies for the delay. I blame blizzards.
 
@@ -15,7 +15,7 @@ The format has a lot of other details that save space. Since you can write any b
 
 So this is great! Floating point numbers lets us represent real numbers in a compact way on a computer!
 
-=== Special Values
+### Special Values
 
 But not so fast! What happens if you divide 1.0 * 2^-1 by 0.0? There is no numerical result, so the answer is Not a Number. Not-Numbers, or NaNs, are represented by special values where the exponent is all 1s, and the significand is non-zero. There are also two values, positive and negative infinity, that represent the transfinite numbers.
 
@@ -25,7 +25,7 @@ For another, since there are so many possible NaNs in each category, in order to
 
 Long story short? The correct answer was to take the last argument of addition that was a NaN, set the 10th bit to 1, and return that. It was still tedious to figure out, especially because the floating point standard leaves it undefined.
 
-=== Rounding
+### Rounding
 
 But floating point is actually even more ambiguous than that - how are you supposed to handle rounding? Each floating point number has a limited size, so it can only represent a limited range of values. Therefore, if you get an inexact answer, how are you supposed to round it?
 
@@ -35,6 +35,6 @@ Why is this a problem? Imagine that you are trying to reproduce a subtle bug in 
 
 Or imagine that you are a scientist, and publish your work so that others can reproduce it. But their computers round the other way, and that little error builds up, and now two groups of scientists have conflicting results.
 
-=== Anyway...
+### Anyway...
 
 Anyway, I now know more than I ever really wanted to about floating point numbers, and I suspect that you do as well. Thank you for reading.

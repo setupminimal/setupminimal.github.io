@@ -1,5 +1,5 @@
 #lang pollen
-= Graphs
+# Graphs
 
 This week in Computer Science, we talked about graphs. Remember linked lists and trees? They both had a common structure, which looks a bit like this:
 
@@ -42,7 +42,7 @@ Since graphs have such variety, there are some vocabulary terms used to describe
 
 Okay, so once you have a graph, what can you do with it?
 
-=== Search
+### Search
 
 Say that you have a graph representing a roadmap - the nodes are towns, and the edges are roads between them. If I want to find the shortest path between two towns, I can use one of the many graph searching algorithms to find the path. So far, we've only covered depth-first and breadth-first search in class, neither of which is guaranteed to give the shortest path, but they will give you _a_ path, so that's something.
 
@@ -64,7 +64,7 @@ This results in depth-first search going off down a long path first, whereas bre
 
 So what else can we do with graphs?
 
-=== Coloring
+### Coloring
 
 Let's say that you have a graph representing a schedule. Nodes are events, and edges connect nodes that can't happen in the same time slot. Now mark the first node with a time. Now go through the nodes, and give each one the earliest time that one of their neighbors doesn't already have. Amazing! You now have a schedule for all of your events.
 

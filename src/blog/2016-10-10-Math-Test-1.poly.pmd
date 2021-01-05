@@ -1,9 +1,9 @@
 #lang pollen
-= Math Test 1
+# Math Test 1
 
 This week in Math, we had our first test, so I thought I would make a test for you. Since I don't want to put you off your breakfast, if the thought of a Math test makes you break out in Hives, then feel free to skip this week's post. For the rest of you, I have *Questions* followed by example `Answers`. I've tried to make sure my answers are accurate, but if you find a problem, feel free to link:mailto:setupminimal@gmail.com[let me know].
 
-=== The Test
+### The Test
 
 *What is a Statement?*
 
@@ -42,7 +42,7 @@ Therefore if (x - 3)*(y + 4) is even, then either x is odd or y is even.
 Since 1 and 2, it is prooven.
 ----
 
-=== Comments
+### Comments
 
 Our actual test was longer, but I have no interest in boring you with a full recounting. The important thing is to remember to occasionally check your knowledge to make sure that you haven't developed any gaps of understanding. The professor has emphasized that from here on proof writing becomes a larger part of the course. I hope to include more proofs like the above, both as examples and to help me write clearer proofs through practice.
 

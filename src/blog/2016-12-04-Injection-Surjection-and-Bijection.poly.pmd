@@ -1,5 +1,5 @@
 #lang pollen
-= Injection, Surjection, and Bijection
+# Injection, Surjection, and Bijection
 
 If you have studied high-school algebra, you probably already know about injective, surjective, and bijective functions, just not by those names.
 

@@ -1,5 +1,5 @@
 #lang pollen
-= Proof by Induction
+# Proof by Induction
 
 Suppose that I wanted to prove that something is true for all natural numbers `n`. Since there are infinitely many such numbers, I can't prove the statement individually for all the numbers, so what can I do?
 

@@ -1,5 +1,5 @@
 #lang pollen
-= IT Week 3
+# IT Week 3
 
 So this week we talked about HTML. The HyperText Markup Language is the language that web pages are written in. Every time your browser shows you a web page, it is really fetching an HTML document, and then using the layout information inside to present it to you on the screen. Here's what a simple HTML document looks like:
 

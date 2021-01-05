@@ -1,5 +1,5 @@
 #lang pollen
-= Style (sheets)
+# Style (sheets)
 
 This week it IT, we talked about Cascading Style Sheets. Let's say that you've written a web-page. By default, it looks bland - a plain white background, no alignment of paragraphs, all in the same font. But you know that HTML5 is all about separating semantics from display, so there's no good way to style your web-page using only HTML. What can you do?
 

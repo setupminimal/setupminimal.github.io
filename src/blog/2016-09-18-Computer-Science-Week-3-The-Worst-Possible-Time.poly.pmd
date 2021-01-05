@@ -1,11 +1,11 @@
 #lang pollen
-= Computer Science Week 3: The Worst Possible Time
+# Computer Science Week 3: The Worst Possible Time
 
 This week was awesome! Which might seem to be in contravention of the title, but the title really _is_ what we learned about.
 
 So in Computer Science we deal a lot with algorithms: doing something in a certain way to produce a certain result. Computer Scientists wanted a way to compare different algorithms to see how long they take. This week we talked about how one compairs algorithms. Let's look at two ways to sort a list as an example.
 
-=== Bubble Sort
+### Bubble Sort
 
 This sorting method works by going back and forth across a list, and swapping adjacent pairs of items if they are out of place. This makes the items "bubble" to the top. Here's an example.
 
@@ -40,7 +40,7 @@ def bubble_sort(alist):
 
 Let's take a look at another method:
 
-=== Quicksort
+### Quicksort
 
 Quicksort works by taking a list, separating it into pieces, sorting each of the pieces, and putting it back together. It's easiest to think of quicksort like this:
 
@@ -81,7 +81,7 @@ def quicksort(alist):
 
 Now how do we go about comparing bubble sort to quicksort? What things about them do we want to compare? In class we talked about . . . 
 
-=== Time Complexity
+### Time Complexity
 
 So first of all, let's talk about what we mean by 'time'. Different computers do different things at different speeds. Calculating the literal time an algorithm would take be difficult. Instead, we count the number of steps in the algorithm (roughly), as a function of the size of the input, `n`. This is called the algorithm's time complexity.
 
