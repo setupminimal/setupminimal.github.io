@@ -22,6 +22,9 @@
               . elements)
   (txexpr 'li empty elements))
 
+(define (hcard . elements)
+  `(a ((class "h-card") (href "https://www.0314159.xyz/")) "Daroc Alden"))
+
 (define (link #:to to
               #:not-format [not-f #f]
               #:rel [rel #f]

@@ -2,7 +2,7 @@
 
 ◊title{Daroc Alden}
 
-Daroc Alden is a computer scientist, currently attending the University of New Hampshire. They work at the UNH-IOL and have an interest in programming language design, AI, and computer security.
+◊hcard{Daroc Alden} is a computer scientist, currently working at the ◊link[#:to "https://iol.unh.edu"]{University of New Hampshire InterOperability Laboratory}. They are interested in programming language design, AI, and computer security, among many other things.
 
 You might be looking for:
 ◊list{
