@@ -21,9 +21,9 @@ You might be looking for:
   }
   ◊item{Or a way to contact them:
   ◊list{
-    ◊item{By email (preferred) at ◊link[#:to "mailto:setupminimal@gmail.com"]{setupminimal@gmail.com}}
+    ◊item{By email (preferred) at ◊link[#:to "mailto:setupminimal@gmail.com" #:rel "me"]{setupminimal@gmail.com}}
     ◊item{By keybase as setupminimal}
-    ◊item{On GitHub as ◊link[#:to "https://github.com/setupminimal"]{setupminimal}}
-    ◊item{Via Twitter (checked rarely) as @setupminimal}
+    ◊item{On GitHub as ◊link[#:to "https://github.com/setupminimal" #:rel "me"]{setupminimal}}
+    ◊item{Via Twitter (checked rarely) as ◊link[#:to "https://twitter.com/setupminimal" #:rel "me"]{@setupminimal}}
   }
   }

@@ -24,10 +24,13 @@
 
 (define (link #:to to
               #:not-format [not-f #f]
+              #:rel [rel #f]
               . elements)
   (if not-f
       '(div)
-    `(a ((href ,to)) ,@elements)))
+      (if (not (eq? rel #f))
+          `(a ((href ,to) (rel ,rel)) ,@elements)
+          `(a ((href ,to)) ,@elements))))
 
 (define (break)
   '(br))
