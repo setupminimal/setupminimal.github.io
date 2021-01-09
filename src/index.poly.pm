@@ -2,7 +2,7 @@
 
 ◊title{Daroc Alden}
 
-◊hcard{Daroc Alden} is a computer scientist, currently working at the ◊link[#:to "https://iol.unh.edu"]{University of New Hampshire InterOperability Laboratory}. They are interested in programming language design, AI, and computer security, among many other things.
+◊hcard{is a computer scientist, currently working at the ◊link[#:to "https://iol.unh.edu"]{University of New Hampshire InterOperability Laboratory}. They are interested in programming language design, AI, and computer security, among many other things.}
 
 You might be looking for:
 ◊list{
