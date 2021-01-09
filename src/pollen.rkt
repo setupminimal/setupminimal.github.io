@@ -23,12 +23,12 @@
   (txexpr 'li empty elements))
 
 (define (hcard . elements)
-  `(span ((class "h-card"))
-         (img ((class "u-photo") (src "/daroc.jpg")))
+  `(div ((class "h-card"))
+         (img ((class "u-photo center") (src "/daroc.jpg") (alt "An image of Daroc in a blue sweater.")))
          (br)
-         (a ((class "p-name u-url") (href "https://www.0314159.xyz/")) "Daroc Alden")
-         "&nbsp;"
-         ,@elements))
+         (p ((class "p-note")) (a ((class "p-name u-url") (href "https://www.0314159.xyz/")) "Daroc Alden")
+         " "
+         ,@elements)))
 
 (define (link #:to to
               #:not-format [not-f #f]
