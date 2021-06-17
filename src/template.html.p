@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav>
-      You're reading ◊|here|. This site was last regenerated on ◊(get-date).
+      You're reading ◊|here|.
       <ul>
       <li><a href="/index.html">Home</a></li>
       <li><a href="/blog.html">Blog</a></li>
