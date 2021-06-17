@@ -2,10 +2,11 @@
 
 ◊title{Daroc Alden}
 
-◊hcard{is a computer scientist, currently working at the ◊link[#:to "https://iol.unh.edu"]{University of New Hampshire InterOperability Laboratory}. They are interested in programming language design, AI, and computer security, among many other things.}
+◊hcard{is a computer scientist, currently working for ◊link[#:to "https://netapp.com"]{NetApp}. They are interested in programming language design, AI, and computer security, among many other things.}
 
 You might be looking for:
 ◊list{
+  ◊item{their ◊link[#:to "https://twitch.tv/setupminimal"]{livestreams}.}
   ◊item{their ◊link[#:to "resume.html"]{resumé}.}
   ◊item{their ◊link[#:to "blog.html"]{blog}.}
   ◊item{their ◊link[#:to "fiction.html"]{fiction}.}
