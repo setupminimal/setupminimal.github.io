@@ -23,6 +23,6 @@ clear:
 
 fetch-stories:
 	rm -rf stories; mkdir stories
-	cp ~/Important/Stories/finishedish/*.md stories
+	cp ~/persistant/writing/Stories/finishedish/*.md stories
 	cd stories; find . -type f | cut -d'/' -f 2 | cut -d'.' -f 1 | xargs -I qq -- sh -c 'pandoc qq.md -o qq.html.pm -t html; sed -i "1s/^/#lang pollen\n/" qq.html.pm'
 	cd stories; rm *.md

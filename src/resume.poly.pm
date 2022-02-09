@@ -32,7 +32,11 @@
 
 ◊subtitle{Experience}
 
-◊work-item[#:where "UNH-IOL" #:role "Lead Architect" #:when "May 2016 - Present"]{
+◊work-item[#:where "NetApp" #:role "Software Engineer" #:when "May 2021 - Present"]{
+  Developed cloud-native storage solutions for multiple hyperscalers
+}
+
+◊work-item[#:where "UNH-IOL" #:role "Lead Architect" #:when "May 2016 - May 2021"]{
   Architected and developed a globally used test tool for networking equipment (Violett). Dealt with customer requests and wrote external documentation. Administered internal servers and test infrastructure, focusing on tool reliability. Trained and managed Avnu team. Started in May 2015 as an intern.
 }
 
