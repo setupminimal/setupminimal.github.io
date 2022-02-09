@@ -33,7 +33,7 @@
 ◊subtitle{Experience}
 
 ◊work-item[#:where "NetApp" #:role "Software Engineer" #:when "May 2021 - Present"]{
-  Developed cloud-native storage solutions for multiple hyperscalers
+  Developed cloud-native storage solutions for multiple hyperscalers. Worked with the FreeBSD kernel. Wrote detailed threat models and documentation for NetApp's ONTAP software.
 }
 
 ◊work-item[#:where "UNH-IOL" #:role "Lead Architect" #:when "May 2016 - May 2021"]{
