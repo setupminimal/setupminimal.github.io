@@ -16,6 +16,23 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
    id="defs364">
+  <inkscape:path-effect
+     effect="fillet_chamfer"
+     id="path-effect11085"
+     is_visible="true"
+     lpeversion="1"
+     nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+     radius="0"
+     unit="px"
+     method="auto"
+     mode="F"
+     chamfer_steps="1"
+     flexible="false"
+     use_knot_distance="true"
+     apply_no_radius="true"
+     apply_with_radius="true"
+     only_selected="false"
+     hide_knots="false" />
   <filter
      y="-0.0080140144"
      height="1.016028"
@@ -5911,10 +5928,10 @@
        id="feComposite9672" />
   </filter>
   <filter
-     inkscape:label="Soft Colors"
-     inkscape:menu="Color"
-     inkscape:menu-tooltip="Adds a colorizable edges glow inside objects and pictures"
-     style="color-interpolation-filters:sRGB;"
+     inkscape:label="Torn Edges"
+     inkscape:menu="Distort"
+     inkscape:menu-tooltip="Displace the outside of shapes and pictures without altering their content"
+     style="color-interpolation-filters:sRGB"
      id="filter9676"
      x="-0.52389316"
      y="-0.99644109"
@@ -5932,7 +5949,8 @@
        k2="0.4"
        k1="0.3"
        k3="0.3"
-       id="feComposite9673" />
+       id="feComposite9673"
+       k4="0" />
     <feGaussianBlur
        in="result15"
        result="result8"
@@ -5954,7 +5972,8 @@
        operator="arithmetic"
        in="result15"
        result="result6"
-       id="feComposite9675" />
+       id="feComposite9675"
+       k4="0" />
     <feFlood
        flood-color="rgb(128,172,0)"
        flood-opacity="1"
@@ -5975,7 +5994,32 @@
        in2="SourceGraphic"
        in="result14"
        operator="in"
-       id="feComposite9676" />
+       id="feComposite9676"
+       result="fbSourceGraphic" />
+    <feColorMatrix
+       result="fbSourceGraphicAlpha"
+       in="fbSourceGraphic"
+       values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+       id="feColorMatrix11085" />
+    <feTurbulence
+       id="feTurbulence11085"
+       baseFrequency="0.05"
+       numOctaves="5"
+       type="fractalNoise"
+       result="result91" />
+    <feDisplacementMap
+       id="feDisplacementMap11085"
+       scale="25"
+       result="result5"
+       xChannelSelector="R"
+       in="fbSourceGraphic"
+       in2="result91"
+       yChannelSelector="A" />
+    <feComposite
+       id="feComposite11085"
+       in="fbSourceGraphic"
+       operator="atop"
+       in2="result5" />
   </filter>
   <filter
      inkscape:label="Soft Colors"
@@ -26616,16 +26660,16 @@
 </defs>
 <sodipodi:namedview
    id="namedview364"
-   pagecolor="#fcf6e6"
+   pagecolor="#ffffff"
    bordercolor="#000000"
    borderopacity="0.25"
    inkscape:showpageshadow="2"
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="0.57188016"
-   inkscape:cx="937.2593"
-   inkscape:cy="689.82984"
+   inkscape:zoom="0.40438034"
+   inkscape:cx="938.47292"
+   inkscape:cy="693.6539"
    inkscape:window-width="1920"
    inkscape:window-height="1008"
    inkscape:window-x="0"
@@ -26643,6 +26687,15 @@
    id="image1"
    transform="rotate(-90)"
    style="display:none;filter:url(#filter11036)" />
+<rect
+   style="fill:#fbf6e4;fill-opacity:1;filter:url(#filter9676)"
+   id="rect11036"
+   width="1843.2655"
+   height="1378.8269"
+   x="-687.16254"
+   y="12.364593"
+   sodipodi:type="rect"
+   ry="59.350067" />
 <g
    id="g1"
    transform="rotate(-90,0,702)"
