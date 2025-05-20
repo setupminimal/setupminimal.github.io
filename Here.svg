@@ -5933,10 +5933,10 @@
      inkscape:menu-tooltip="Displace the outside of shapes and pictures without altering their content"
      style="color-interpolation-filters:sRGB"
      id="filter9676"
-     x="-0.52389316"
-     y="-0.99644109"
-     width="2.0477851"
-     height="2.9928824">
+     x="-0.0064754355"
+     y="-0.0087030504"
+     width="1.0129509"
+     height="1.0174061">
     <feColorMatrix
        type="saturate"
        values="1"
@@ -26690,7 +26690,7 @@
 <rect
    style="fill:#fbf6e4;fill-opacity:1;filter:url(#filter9676)"
    id="rect11036"
-   width="1843.2655"
+   width="1853.1572"
    height="1378.8269"
    x="-687.16254"
    y="12.364593"
@@ -31097,8 +31097,7 @@
 </g>
 <g
    id="g340"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9676)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31240,8 +31239,7 @@
 </g>
 <g
    id="g351"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9562)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31253,8 +31251,7 @@
 </g>
 <g
    id="g352"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9568)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31266,8 +31263,7 @@
 </g>
 <g
    id="g353"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9566)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31279,8 +31275,7 @@
 </g>
 <g
    id="g354"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9564)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31292,8 +31287,7 @@
 </g>
 <g
    id="g355"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9570)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31305,8 +31299,7 @@
 </g>
 <g
    id="g356"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9558)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31318,8 +31311,7 @@
 </g>
 <g
    id="g357"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9608)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31357,8 +31349,7 @@
 </g>
 <g
    id="g360"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9560)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31383,8 +31374,7 @@
 </g>
 <g
    id="g362"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9574)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
@@ -31409,8 +31399,7 @@
 </g>
 <g
    id="g364"
-   transform="rotate(-90,0,702)"
-   style="filter:url(#filter9572)">
+   transform="rotate(-90,0,702)">
   <path
      fill="none"
      stroke="#000000"
